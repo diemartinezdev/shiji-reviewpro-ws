@@ -22,29 +22,29 @@ def contacts(url):
     # Extraigo los anchor que comienzan con 'mailto:'
         links = div.find_all("a", href=lambda href: href and href.startswith("mailto:"))
         
-        mails_data = []
+        subtitles_data = []
 
     # Itero tomando los links, eliminando el 'mailto:' del principio y lo posterior a '.com'    
         for link in links:
             mail = link["href"].replace("mailto:", "")
             mail = mail.split(".com")[0] + ".com"
         
-            mails_data = {
+            subtitle_data = {
                 'Mail': mail
             }
-            mails_data.append(mails_data)
+            subtitles_data.append(subtitle_data)
             
         title_data = {
             'Title': title,
-            'MailsData': mails_data
+            'MailsData': subtitles_data
         }
 
         data.append(title_data)    
 
-# 
-    with open('contacts.json', 'w') as file:
-        json.dump(data, file, indent=6)
+# Construyo el formato de salida 
+        with open('contacts.json', 'w') as file:
+            json.dump(data, file, indent=2)
 
-print('Datos guardados en datos.json')
+    print('To see the results, open contacts.json')
 
 contacts("https://reviewpro.shijigroup.com/team#contact")

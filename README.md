@@ -18,5 +18,5 @@ The objective is to extract certain information requested from the Shiji Group w
   <li>Type in the terminal "pip install requests" and "pip install beautifulsoup4", which are the necessary packages for our request to work. </li>
   <li>Download the scripts (contacts.py and products.py) in a folder. </li>
   <li>In the terminal, type "cd " + the directory where the folder is. </li>
-  <li>Finally type "python contacts.py" and will return the contacts request. Same process typing "python products.py"</li>
+  <li>Finally type "python contacts.py" and will generate a JSON file with the contacts request. Same process typing "python products.py"</li>
 </ul>

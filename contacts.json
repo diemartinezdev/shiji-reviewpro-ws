@@ -1,0 +1,57 @@
+[
+  {
+    "Title": "Customer Support",
+    "MailsData": [
+      {
+        "Mail": "reviewpro.customersuccess@shijigroup.com"
+      },
+      {
+        "Mail": "reviewpro.asia@shijigroup.com"
+      },
+      {
+        "Mail": "reviewpro.china@shijigroup.com"
+      },
+      {
+        "Mail": "reviewpro.us@shijigroup.com"
+      },
+      {
+        "Mail": "reviewpro.anz@shijigroup.com"
+      }
+    ]
+  },
+  {
+    "Title": "Sales Inquiries",
+    "MailsData": [
+      {
+        "Mail": "reviewpro.sales@shijigroup.com"
+      }
+    ]
+  },
+  {
+    "Title": "Partnership Opportunities",
+    "MailsData": [
+      {
+        "Mail": "partners@reviewpro.com"
+      }
+    ]
+  },
+  {
+    "Title": "Press",
+    "MailsData": [
+      {
+        "Mail": "reviewpro.press@shijigroup.com"
+      }
+    ]
+  },
+  {
+    "Title": "Billing Issues",
+    "MailsData": [
+      {
+        "Mail": "accounts@reviewpro.com"
+      },
+      {
+        "Mail": "reviewpro.payments@shijigroup.com"
+      }
+    ]
+  }
+]

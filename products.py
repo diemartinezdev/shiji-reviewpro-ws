@@ -31,6 +31,7 @@ def products(url):
             link = subtitle["href"]
             if not link.startswith("https"):
                 link = "https://reviewpro.shijigroup.com" + link
+                
         # Indico qué elementos iran dentro de la sublista
             subtitle_data = {
                 'Subtitle': sub,
@@ -46,11 +47,11 @@ def products(url):
 
         data.append(title_data)
 
-# 
-    with open('products.json', 'w') as file:
-        json.dump(data, file, indent=6)
+# Construyo el formato de salida
+        with open('products.json', 'w') as file:
+            json.dump(data, file, indent=2)
 
-print('Datos guardados en datos.json')
+    print('To see the results, open products.json')
 
 
 products("https://reviewpro.shijigroup.com/")
